@@ -1,0 +1,6 @@
+# site.yml
+- hosts: localhost
+  tasks:
+    - name: Hello
+      debug:
+        msg: "Hello World"
